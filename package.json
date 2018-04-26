@@ -1,10 +1,11 @@
 {
-  "name": "domhandler",
-  "version": "2.4.1",
+  "name": "@sendgrid/domhandler",
+  "version": "2.4.2",
   "description": "handler for htmlparser2 that turns pages into a dom",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
     "test": "mocha -R list && jshint index.js test/"
@@ -37,5 +38,9 @@
     "globals": {
       "it": true
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/fb55/DomHandler/issues"
+  },
+  "homepage": "https://github.com/fb55/DomHandler#readme"
 }
